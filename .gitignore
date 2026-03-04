@@ -1,0 +1,4 @@
+.papi
+node_modules
+.env
+build
