@@ -63,7 +63,9 @@ async function getOnDemandCoretime() {
         });
         */
     }
+    console.log(`Completed requests for ${requestCount} blocks. Destroying RPC client...`);
     client.destroy();
+    console.log('RPC client destroyed.');
 }
 
 getOnDemandCoretime();
